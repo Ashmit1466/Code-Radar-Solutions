@@ -2,11 +2,9 @@
 
 
 int main() {
-    int a;
-    scanf("%d",&a);
-
-    printf("Hexadecimal: %X\n",a);
-    printf("Octal: %o\n",a);
-
+    char a[100],b[100];
+    scanf("%s",&a);
+    scanf("%s",&b);
+    printf("You entered: %s and %s",a,b);
     return 0;
 }
