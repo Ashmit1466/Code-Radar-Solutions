@@ -1,16 +1,16 @@
 #include <stdio.h>
 int main(){
-    int age;
-    scanf("%d", &age);
+    int a, b, c;
+    scanf("%d %d %d", &a, &b, &c);
 
-    if( age >= 18){
-        printf("Eligible");
+    if (a == b && b == c){
+        printf("Equilateral");
     }
-    else if (age < 0){
-        printf("Enter a valid age");
+    else if(a == b || b == c || c == a){
+        printf("Isosceles");
     }
     else{
-        printf("Not Eligible");
+        printf("Scalene");
     }
     return 0;
 }
