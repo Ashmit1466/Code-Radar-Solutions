@@ -1,12 +1,9 @@
 #include <stdio.h>
 int main(){
     int num1, num2;
+    int output;
     scanf("%d %d", &num1, &num2);
-    if(num1 > 0 && num2 < 0 || num1 < 0 && num2 > 0){
-        printf("True");
-    }
-    else{
-        printf("False");
-    }
+    output = num1 | num2;
+    printf("%d", output);
     return 0;
-}
+    }
