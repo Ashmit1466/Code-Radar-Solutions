@@ -1,14 +1,13 @@
 #include <stdio.h>
 int main(){
-    int num, count = 0;
+    int num;
     scanf("%d", &num);
-    if(num < 0){
-        num = ~num + 1;
+
+    if(num%2 == 0){
+        printf("Even");
     }
-    while (!(num & (1 << 31))){
-        count ++;
-        num <<= 1;
+    else{
+        printf("Odd");
     }
-    printf("%d", count);
     return 0;
 }
