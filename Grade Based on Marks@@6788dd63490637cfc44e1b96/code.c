@@ -21,4 +21,4 @@ int main (){
     else{
         printf("Enter a valid number");
     }
-    return 0;
+    return 0;}
