@@ -1,9 +1,7 @@
 #include <stdio.h>
 int main(){
-    int num1, num2;
-    int AND;
-    scanf("%d %d", &num1, &num2);
-    AND = num1 & num2;
-    printf("%d", AND);
+    int a,b;
+    scanf("%d %d",&a,&b);
+    printf("%d",a&b);
     return 0;
 }
