@@ -1,9 +1,7 @@
 #include <stdio.h>
 int main(){
-    int num1, num2;
-    int output;
-    scanf("%d %d", &num1, &num2);
-    output = num1 | num2;
-    printf("%d", output);
+    int a,b;
+    scanf("%d %d",&a,&b);
+    printf("%d",a|b);
     return 0;
-    }
+}
