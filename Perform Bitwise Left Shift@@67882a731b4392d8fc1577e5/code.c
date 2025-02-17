@@ -1,9 +1,7 @@
 #include <stdio.h>
 int main(){
-    int num1, num2;
-    int position;
-    scanf("%d %d", &num1, &num2);
-    position = num1 << num2;
-    printf("%d", position);
+    int a,b:
+    scanf("%d %d",&a,&b);
+    printf("%d",a<<b);
     return 0;
 }
