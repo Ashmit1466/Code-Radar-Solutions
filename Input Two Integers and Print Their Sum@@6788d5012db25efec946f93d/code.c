@@ -1,9 +1,13 @@
 #include <stdio.h>
 int main(){
-    int x,y;
-    scanf("%d %d",&x &y);
-    printf("Input: %d %d",x y);
+    int x;
+    scanf("%d",&x);
+    printf("Enter Number: %d",x);
+    int y;
+    scanf("%d",&y);
+    printf("Enter Number: %d",y);
     int a=x+y;
-    printf("Sum: %d",a);
+    printf("%d",a);
     return 0;
+
 }
