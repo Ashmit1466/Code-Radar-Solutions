@@ -1,9 +1,7 @@
 #include <stdio.h>
 int main(){
-    int num;
-    int one;
-    scanf("%d", &num);
-    one = ~ num;
-    printf("%d", one);
+    int a,b;
+    scanf("%d %d",&a,&b);
+    printf("%d",a~b);
     return 0;
 }
