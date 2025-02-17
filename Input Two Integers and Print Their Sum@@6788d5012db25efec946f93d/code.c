@@ -4,5 +4,6 @@ int main(){
     scanf("%d %d",&x &y);
     printf("Enter no.");
     int a=x+y;
-    printf("a")
+    printf("a");
+    return 0;
 }
