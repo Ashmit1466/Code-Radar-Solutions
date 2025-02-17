@@ -9,5 +9,4 @@ int main(){
     int a=x+y;
     printf("Sum: %d",a);
     return 0;
-
 }
