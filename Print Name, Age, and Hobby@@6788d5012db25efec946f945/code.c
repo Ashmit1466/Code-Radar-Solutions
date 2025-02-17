@@ -1,10 +1,10 @@
 #include <stdio.h>
-int main(){
+int main() {
     char x[100],z[100];
     int y;
-    scanf("%c %d %c",&x,&y,&z);
-    printf("Name: %c",x);
-    printf("Age: %d",y);
-    printf("Hobby: %c",z);
+    scanf("%s %d %s" ,&x,&y,&z);
+    printf("Name: %s\n",x);
+    printf("Age: %d\n",y);
+    printf("Hobby: %s\n",z);
     return 0;
 }
