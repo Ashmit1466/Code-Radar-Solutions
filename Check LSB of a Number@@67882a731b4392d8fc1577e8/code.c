@@ -1,13 +1,14 @@
 #include <stdio.h>
 int main(){
-    int num;
-    scanf("%d", &num);
+    int a;
+    scanf("%d",&a);
 
-    if(num & 1){
+    if (a&1){
         printf("Set");
+
     }
     else{
-        printf("Not Set");
+        printf("Not Set")
     }
     return 0;
 }
