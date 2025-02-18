@@ -1,13 +1,14 @@
 #include <stdio.h>
 int main(){
-    int num;
-    scanf("%d", &num);
+   int a;
+   scanf("%d",&a);
 
-    if (num % 5 == 0 && num % 11 == 0){
-        printf("Divisible");
-    }
-    else{
-        printf("Not Divisible");
-    }
-    return 0;
+   if (a%5==0 && a%11==0){
+    printf("Divisible");
+
+   }
+   else{
+    printf("Not Divisible");
+   } 
+   return 0;
 }
